@@ -14,7 +14,7 @@ class Product extends Model implements HasMedia
     
     public function images()
     {
-        return $this->media()->whereCollectionName('images');
+        return $this->media()->whereCollectionName('imagess');
     }
 
     public function getId()
